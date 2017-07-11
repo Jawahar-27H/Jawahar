@@ -38,7 +38,7 @@ class Book{
 	}
  }
 	
-	class Author {
+	class author {
 	     String name="";
 	     String email="";
 	     char gender='f';
