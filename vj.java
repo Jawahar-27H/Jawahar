@@ -1,5 +1,5 @@
 import java.util.*;
-public class longest_prefix
+public class longestprefix
 {
 public static void main(String ar[])throws Exception
 {
@@ -24,6 +24,6 @@ break;
 }
 long=a[i].subString(0,j);
 }
-System.out.println("longest prefix is:"+long);
+System.out.println("longestprefix :"+long);
 }
 }
