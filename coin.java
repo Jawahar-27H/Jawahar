@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class coinremoval
+public class coinremove
  {
     public static void main(String[] args)
     {
@@ -10,7 +10,7 @@ public class coinremoval
             System.out.println(s);
 
 
-            System.out.println("Enter the position to delete");
+            System.out.println("Enter  position to delete");
             Scanner sc = new Scanner(System.in);
             pos = sc.nextInt();
             pos = pos - 1;
@@ -19,7 +19,7 @@ public class coinremoval
 
                 if (s.charAt(pos) == 'T' || s.charAt(pos) == '_') {
                     System.out.println("You are entered the tail position or already deleted position " +
-                            " Please enter the head position or unremoved position to remove");
+                            " Please enter  head position or unremoved position to remove");
 
                 } else {
 
