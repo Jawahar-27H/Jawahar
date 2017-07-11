@@ -2,9 +2,9 @@
 int main()
 {
 int i=0,n,k,j,l,temp,p=0,o,a[20];
-printf("Enter the value");  //input 
+printf("Enter value");  
 scanf("%d",&n);
-printf("\nEnter the K value");//k value
+printf("\nEnterK value");
 scanf("%d",&k);
 while(n>0)
 {
