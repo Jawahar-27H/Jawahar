@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LongPalindrome {
+public class longpali {
 
 	public static void main(String[] args) {
 		
