@@ -1,7 +1,7 @@
 import java.io.*;  
 class Edge
 {
- int v1,v2,wt;   // wt is the weight of the edge
+ int v1,v2,wt;  
 }
 class kruskalsalgo
 {
@@ -22,7 +22,7 @@ for(i=1;i<=e;i++)
  ed[i].v2=Integer.parseInt(br.readLine());
  ed[i].wt=Integer.parseInt(br.readLine());
 }
-for(i=1;i<=e;i++)      // sorting the edges in ascending order
+for(i=1;i<=e;i++)      
  for(j=1;j<=e-1;j++)
 {
  if(ed[j].wt>ed[j+1].wt)
@@ -34,7 +34,7 @@ for(i=1;i<=e;i++)      // sorting the edges in ascending order
 }
 }
 
-int visited[]=new int[v+1];       // array to check whether the vertex is visited or not
+int visited[]=new int[v+1];      
 for(i=1;i<=v;i++)
  visited[i]=0;
 System.out.println("MINIMUM SPANNING TREE :");
@@ -51,6 +51,6 @@ else if( visited[ed[i].v1]==0 || visited[ed[i].v2]==0)
     mincost+=ed[i].wt;
  }
 }
-System.out.println("MINIMUM COST = " +mincost);
+System.out.println("MIN COST = " +mincost);
 }
 }
